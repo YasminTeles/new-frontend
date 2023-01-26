@@ -25,3 +25,14 @@ updates:
       prefix: "chore"
     labels:
       - 'dependencies'
+
+  - package-ecosystem: docker
+    directory: '/'
+    schedule:
+      interval: monthly
+      time: '08:00'
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: "chore"
+    labels:
+      - 'dependencies'

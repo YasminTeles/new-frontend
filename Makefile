@@ -1,4 +1,4 @@
-.PHONY: help setup run dev test test-reports build lint lint-fix release
+.PHONY: help setup run dev test test-reports build lint lint-fix release docker-build docker-run
 
 NPM ?= $(shell which npm)
 YARN ?= $(shell which yarn)
@@ -38,3 +38,9 @@ lint-fix: ## Run lint and fix the files.
 
 release: ## Release application.
 	@$(PKG_MANAGER) run release
+
+docker-build: ## Build container application.
+	docker build -t nextjs-docker .
+
+docker-run: ## Run container application.
+	docker run -p 3000:3000 nextjs-docker
