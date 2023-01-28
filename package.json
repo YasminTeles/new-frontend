@@ -2,6 +2,11 @@
   "name": "next-project-starter",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Yasmin Teles",
+    "email": "teles.yasmin@gmail.com",
+    "url": "https://yasminteles.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
