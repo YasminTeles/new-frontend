@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+# [1.1.0](https://github.com/YasminTeles/new-frontend/compare/1.0.1...1.1.0) (2023-08-19)
+
+
+### Features
+
+* add custom favicon ([2512ced](https://github.com/YasminTeles/new-frontend/commit/2512cedcc732d3a03e5b0b0a6d767bd99c8d9372))
+
 ## [1.0.1](https://github.com/YasminTeles/new-frontend/compare/1.0.0...1.0.1) (2023-08-19)
 
 
