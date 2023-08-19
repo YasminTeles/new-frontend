@@ -1,4 +1,4 @@
-.PHONY: help setup run dev test test-reports build lint lint-fix release docker-build docker-run
+.PHONY: help setup run dev test test-reports build lint lint-fix release docker-build docker-run del
 
 NPM ?= $(shell which npm)
 YARN ?= $(shell which yarn)
@@ -44,3 +44,7 @@ docker-build: ## Build container application.
 
 docker-run: ## Run container application.
 	docker run -p 3000:3000 nextjs-docker
+
+del: ## Delete Node files.
+	@powershell "(rm ./yarn.lock)"
+	@powershell "(rm -Recurse .\node_modules\)"
