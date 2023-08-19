@@ -880,10 +880,10 @@
   dependencies:
     glob "7.1.7"
 
-"@next/font@13.1.2":
-  version "13.1.2"
-  resolved "https://registry.yarnpkg.com/@next/font/-/font-13.1.2.tgz#ee809ca03113d0e73495ac5d0e2a978885d0d97e"
-  integrity sha512-NXGXGFGiOKEnvBIHq9cdFTKbHO2/4B3Zd9K27M7j1DioIQVar7oVRqZMYs0h3XMVEZLwjjkdAtqRPCzzd3RtXg==
+"@next/font@13.4.19":
+  version "13.4.19"
+  resolved "https://registry.yarnpkg.com/@next/font/-/font-13.4.19.tgz#2b69aee760a3bbabf54873f80ae6d4b09b35d133"
+  integrity sha512-yOuSRYfqksWcaG/sATr1/DEGvvI8gnmAAnQCCZ0+L9p4Pio3/DMu71J56YHh9Hz84LDN4tMVzuux0ssCuM50sA==
 
 "@next/swc-darwin-arm64@13.4.19":
   version "13.4.19"
