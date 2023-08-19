@@ -1,5 +1,4 @@
-import { Container, Typography } from "@mui/material"
-import { Stack } from "@mui/system"
+import { Container, Typography, Stack } from "@mui/material"
 import Head from "next/head"
 
 import Footer from "@components/Footer"

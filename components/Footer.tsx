@@ -1,5 +1,4 @@
-import { Link } from "@mui/material"
-import { Box } from "@mui/system"
+import { Link, Box } from "@mui/material"
 
 function Footer() {
   return (
