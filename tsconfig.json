@@ -22,6 +22,7 @@
       "@constants/*": ["constants/*"],
       "@types/*": ["types/*"],
       "@services/*": ["services/*"],
+      "@hooks/*": ["hooks/*"],
       "@images/*": ["public/images/*"],
     }
   },

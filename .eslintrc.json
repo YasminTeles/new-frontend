@@ -37,6 +37,7 @@
             "/^@components/",
             "/^@constants/",
             "/^@services/",
+            "/^@hooks/",
             "/^@types/",
             "/^@images/",
             "/^@styles/"
