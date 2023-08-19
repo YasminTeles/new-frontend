@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+# [1.2.0](https://github.com/YasminTeles/new-frontend/compare/1.1.0...1.2.0) (2023-08-19)
+
+
+### Features
+
+* add metatags in header ([36d0675](https://github.com/YasminTeles/new-frontend/commit/36d0675dce873cb706d99825d230419a394d8fd2))
+
 # [1.1.0](https://github.com/YasminTeles/new-frontend/compare/1.0.1...1.1.0) (2023-08-19)
 
 
