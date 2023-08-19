@@ -12,6 +12,10 @@ Run the following command to create a new project with the `create-next-app`:
 yarn create next-app [project-name] -e https://github.com/YasminTeles/new-frontend
 ```
 
+## Live Demo
+
+Visit the [demo page](https://livedemo.com).
+
 ## Learn More
 
 To learn more about this project, take a look at the following resources:
@@ -29,4 +33,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact me
 
-Contact me through [the my site](https://yasminteles.com).
+I'm always up for a chat. If you have a question or suggestion, You'll try to contact me through [my site](https://yasminteles.com).

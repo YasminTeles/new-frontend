@@ -27,6 +27,11 @@ Tests:
 - [Jest](https://jestjs.io/) - Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) - React Testing Library is a library for testing React applications.
 
+Continuos delivery:
+
+- [Docker](https://www.docker.com/) - Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.
+- [Vercel](https://vercel.com/) - Vercel's frontend cloud gives developers the frameworks, workflows, and infrastructure to build a faster, more personalized Web.
+
 Frameworks:
 
 - [Next.js](https://nextjs.org/) - The React Framework for the Web.
@@ -35,3 +40,7 @@ Frameworks:
 Design system:
 
 - [Material UI](https://material-ui.com/pt/) - A popular React UI framework.
+
+## Contact me
+
+I'm always up for a chat. If you have a question or suggestion, You'll try to contact me through [my site](https://yasminteles.com).

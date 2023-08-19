@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 - [nvm](https://github.com/nvm-sh/nvm) - Node Version Manager.
 
 Make sure to use the node version configured in the project. See the node version in `.nvmrc`.
-We recommend using the [nvm](https://github.com/nvm-sh/nvm) tool to manage node versions.
+I recommend using the [nvm](https://github.com/nvm-sh/nvm) tool to manage node versions.
 To configure the node version of the project, try `nvm use`.
 
 ### Installation
@@ -56,3 +56,7 @@ If you do not know what the make command is doing, you can use the following com
 ```bash
 make help
 ```
+
+## Contact me
+
+I'm always up for a chat. If you have a question or suggestion, You'll try to contact me through [my site](https://yasminteles.com).
