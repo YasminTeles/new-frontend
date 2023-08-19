@@ -3,7 +3,8 @@
     "next/core-web-vitals",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
-		"plugin:react-perf/recommended"
+		"plugin:react-perf/recommended",
+    "airbnb"
   ],
 
   "plugins": [
@@ -23,7 +24,12 @@
     "react/no-multi-comp": "error",
     "react/react-in-jsx-scope": "off",
     "react/jsx-props-no-spreading": "off",
+    "react/jsx-filename-extension": [
+			"error",
+			{ "extensions": [".ts", ".tsx"] }
+		],
 
+    "import/extensions": "off",
     "import/newline-after-import": "warn",
     "import-helpers/order-imports": [
       "warn",
