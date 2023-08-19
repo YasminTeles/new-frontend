@@ -1,12 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# New Frontend
 
-Run the following command to create a new project with this Starter:
+A boilerplate/starter project for quickly building frontend apps using Next.js and Material-UI.
+
+It's intended as a starting point for your product or service. The client side comes with some built-in features, such as unit and integration tests, continuous integration, docker support. For more details, check the [features list](HISTORY.md#built-with).
+
+## Usage
+
+Run the following command to create a new project with the `create-next-app`:
 
 ```bash
 yarn create next-app [project-name] -e https://github.com/YasminTeles/new-frontend
 ```
-
-## Usage
 
 ## Learn More
 
