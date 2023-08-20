@@ -1,4 +1,11 @@
 {
+  "env": {
+    "browser": true,
+    "es2020": true,
+    "node": true,
+    "jest": true
+  },
+
   "extends": [
     "next/core-web-vitals",
     "plugin:react/recommended",
@@ -29,6 +36,10 @@
 			{ "extensions": [".ts", ".tsx"] }
 		],
 
+    "import/no-extraneous-dependencies": [
+      "error",
+      {"devDependencies": true}
+    ],
     "import/extensions": "off",
     "import/newline-after-import": "warn",
     "import-helpers/order-imports": [
