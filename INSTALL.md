@@ -59,4 +59,4 @@ make help
 
 ## Contact me
 
-I'm always up for a chat. If you have a question or suggestion, You'll try to contact me through [my site](https://yasminteles.com).
+I'm always up for a chat. If you have a question or suggestion, you'll try to contact me through [my site](https://yasminteles.com).

@@ -14,13 +14,14 @@ yarn create next-app [project-name] -e https://github.com/YasminTeles/new-fronte
 
 ## Live Demo
 
+<!-- Mude a URL de demo para a url do vercel -->
 Visit the [demo page](https://livedemo.com).
 
 ## Learn More
 
 To learn more about this project, take a look at the following resources:
 
-- [Install local](INSTALL.md) - Learn about how to install and use this project.
+- [Local Install](INSTALL.md) - Learn about how to install and use this project.
 - [Architecture](HISTORY.md) - See all details about what technologies were used to build this project.
 
 ## Versions
@@ -33,4 +34,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact me
 
-I'm always up for a chat. If you have a question or suggestion, You'll try to contact me through [my site](https://yasminteles.com).
+I'm always up for a chat. If you have a question or suggestion, you'll try to contact me through [my site](https://yasminteles.com).
