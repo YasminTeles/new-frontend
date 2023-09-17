@@ -21,6 +21,7 @@ Continuos integration:
 - [Github Actions](https://docs.github.com/en/actions) - Automate, customize, and execute your software development workflows right in your repository with GitHub Actions.
 - [Dependabot](https://github.com/dependabot) - Automated dependency updates built into GitHub.
 - [Semantic release](https://github.com/semantic-release) - Fully automated version management and package publishing.
+- [Gitleaks](https://github.com/gitleaks/gitleaks) - Gitleaks is an open-source tool to detect and prevent secrets in Git repositories.
 
 Tests:
 
