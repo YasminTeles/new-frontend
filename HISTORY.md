@@ -42,6 +42,14 @@ Design system:
 
 - [Material UI](https://material-ui.com/pt/) - A popular React UI framework.
 
+## Versions
+
+This project uses [Semantic version](http://semver.org) for versioning. For versions available, see [Changelog](CHANGELOG.md).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 ## Contact me
 
 I'm always up for a chat. If you have a question or suggestion, you'll try to contact me through [my site](https://yasminteles.com).
