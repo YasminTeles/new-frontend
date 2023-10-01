@@ -1,4 +1,4 @@
-name: Generate a release
+name: Generate an release
 
 on:
   workflow_run:
@@ -30,7 +30,7 @@ jobs:
       - name: Install dependencies
         run:  make setup || make setup || make setup
 
-      - name: Generate a release
+      - name: Generate an release
         run: make release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
