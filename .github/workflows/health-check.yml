@@ -9,7 +9,7 @@ jobs:
     name: Secrets Scan
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository code
+      - name: Check out the repository code
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -22,7 +22,7 @@ jobs:
   Lint:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository code
+      - name: Check out the repository code
         uses: actions/checkout@v4
 
       - name: Setup Node.js
@@ -39,7 +39,7 @@ jobs:
   Test:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository code
+      - name: Check out the repository code
         uses: actions/checkout@v4
 
       - name: Setup Node.js
@@ -64,7 +64,7 @@ jobs:
     needs: [Lint, Test]
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository code
+      - name: Check out the repository code
         uses: actions/checkout@v4
 
       - name: Setup Node.js
