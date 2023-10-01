@@ -32,6 +32,7 @@ Continuos delivery:
 
 - [Docker](https://www.docker.com/) - Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.
 - [Vercel](https://vercel.com/) - Vercel's frontend cloud gives developers the frameworks, workflows, and infrastructure to build a faster, more personalized Web.
+- [Trivy](https://trivy.dev/) - Trivy scans container images, file systems, and operational systems so that they don’t have any known security vulnerabilities.
 
 Frameworks:
 
