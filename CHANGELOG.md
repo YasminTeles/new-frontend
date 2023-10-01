@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+# [1.3.0](https://github.com/YasminTeles/new-frontend/compare/1.2.0...1.3.0) (2023-10-01)
+
+
+### Features
+
+* add roboto fonts ([8ef255b](https://github.com/YasminTeles/new-frontend/commit/8ef255b0e0718b2595a9a1991b6d1b64f4ed43f7))
+
 # [1.2.0](https://github.com/YasminTeles/new-frontend/compare/1.1.0...1.2.0) (2023-08-19)
 
 
