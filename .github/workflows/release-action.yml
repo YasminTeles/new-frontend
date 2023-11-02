@@ -45,13 +45,13 @@ jobs:
       - name: Check out the repository code
         uses: actions/checkout@v4
 
-      - name: Build the Docker image
+      - name: Build an image from Dockerfile
         run: make docker-build
 
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
         with:
-          image-ref: 'server'
+          image-ref: 'nextjs-docker'
           format: 'sarif'
           output: 'trivy-results.sarif'
           exit-code: '1'
