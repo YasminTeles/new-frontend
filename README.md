@@ -12,10 +12,11 @@ Run the following command to create a new project with the `create-next-app`:
 yarn create next-app [project-name] -e https://github.com/YasminTeles/new-frontend
 ```
 
-## Live Demo
+<!-- ## Live Demo
 
-<!-- Mude a URL de demo para a url do vercel -->
-Visit the [demo page](https://livedemo.com).
+Add this section and set a demo's URL
+
+Visit the [demo page](https://livedemo.com). -->
 
 ## Learn More
 
