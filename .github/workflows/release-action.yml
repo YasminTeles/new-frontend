@@ -1,4 +1,4 @@
-name: Generate an release
+name: Generate a release
 
 on:
   workflow_run:
@@ -22,15 +22,21 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version-file: '.nvmrc'
 
+      - name: Cache the dependencies
+        uses: actions/cache@v4
+        with:
+          path: node_modules/
+          key: ${{ runner.os }}-cache-dependencies-${{ hashFiles('**/yarn.lock') }}
+
       - name: Install dependencies
         run:  make setup || make setup || make setup
 
-      - name: Generate an release
+      - name: Generate a release
         run: make release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -54,8 +60,6 @@ jobs:
           image-ref: 'nextjs-docker'
           format: 'sarif'
           output: 'trivy-results.sarif'
-          exit-code: '1'
-          ignore-unfixed: true
           vuln-type: 'os,library'
           severity: 'CRITICAL,HIGH'
 

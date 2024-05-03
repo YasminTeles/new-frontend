@@ -19,35 +19,72 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
-  Lint:
+  Build:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repository code
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version-file: '.nvmrc'
 
-      - name: Setup project
+      - name: Cache the dependencies
+        uses: actions/cache@v4
+        with:
+          path: node_modules/
+          key: ${{ runner.os }}-cache-dependencies-${{ hashFiles('**/yarn.lock') }}
+
+      - name: Set up project
+        run: make setup || make setup || make setup
+
+      - name: Build the application
+        run: make build
+
+  Lint:
+    needs: [Build]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: Cache the dependencies
+        uses: actions/cache@v4
+        with:
+          path: node_modules/
+          key: ${{ runner.os }}-cache-dependencies-${{ hashFiles('**/yarn.lock') }}
+
+      - name: Set up project
         run: make setup || make setup || make setup
 
       - name: Run lint
         run: make lint
 
   Test:
+    needs: [Build]
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repository code
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version-file: '.nvmrc'
 
-      - name: Setup project
+      - name: Cache the dependencies
+        uses: actions/cache@v4
+        with:
+          path: node_modules/
+          key: ${{ runner.os }}-cache-dependencies-${{ hashFiles('**/yarn.lock') }}
+
+      - name: Set up project
         run: make setup || make setup || make setup
 
       - name: Run tests
@@ -59,21 +96,3 @@ jobs:
         with:
           name: test-report
           path: coverage/**/*
-
-  Build:
-    needs: [Lint, Test]
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out the repository code
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version-file: '.nvmrc'
-
-      - name: Setup project
-        run: make setup || make setup || make setup
-
-      - name: Build the application
-        run: make build
