@@ -17,6 +17,8 @@ updates:
         update-types: ["version-update:semver-patch", "version-update:semver-minor"]
     labels:
       - 'dependencies'
+    reviewers:
+      - "YasminTeles"
 
   - package-ecosystem: github-actions
     directory: '/'
@@ -28,6 +30,8 @@ updates:
       prefix: "chore"
     labels:
       - 'dependencies'
+    reviewers:
+      - "YasminTeles"
 
   - package-ecosystem: docker
     directory: '/'
@@ -39,3 +43,6 @@ updates:
       prefix: "chore"
     labels:
       - 'dependencies'
+    reviewers:
+      - "YasminTeles"
+
