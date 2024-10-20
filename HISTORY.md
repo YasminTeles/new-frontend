@@ -22,6 +22,7 @@ Continuos integration:
 - [Dependabot](https://github.com/dependabot) - Automated dependency updates built into GitHub.
 - [Semantic release](https://github.com/semantic-release) - Fully automated version management and package publishing.
 - [Gitleaks](https://github.com/gitleaks/gitleaks) - Gitleaks is an open-source tool to detect and prevent secrets in Git repositories.
+- [codeQL](https://codeql.github.com/docs/codeql-overview/) -  CodeQL is the analysis engine used by developers to automate security checks, and by security researchers to perform variant analysis.
 
 Tests:
 
