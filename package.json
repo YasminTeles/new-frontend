@@ -16,10 +16,10 @@
     "release": "semantic-release"
   },
   "dependencies": {
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^5.11.0",
-    "@mui/material": "^5.11.5",
+    "@mui/material": "^6.1.4",
     "next": "^14.2.3",
     "radash": "^12.0.0",
     "react": "18.2.0",
